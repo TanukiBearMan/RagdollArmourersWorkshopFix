@@ -24,7 +24,10 @@ class MixinPackageLayoutTest {
                     .map(path -> path.getFileName().toString())
                     .collect(Collectors.toSet());
 
-            assertEquals(Set.of("SkinPartElementMixin.class"), classFiles);
+            assertEquals(Set.of(
+                    "SkinPartElementMixin.class",
+                    "RagdollPartBlockEntityRendererMixin.class"
+            ), classFiles);
         }
     }
 }

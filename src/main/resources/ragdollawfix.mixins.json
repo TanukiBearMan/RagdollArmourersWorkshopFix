@@ -6,7 +6,8 @@
   "mixins": [
   ],
   "client": [
-    "SkinPartElementMixin"
+    "SkinPartElementMixin",
+    "RagdollPartBlockEntityRendererMixin"
   ],
   "injectors": {
     "defaultRequire": 1

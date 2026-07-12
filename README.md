@@ -24,5 +24,5 @@ This mod suppresses Armourer's Workshop skin parts that do not belong to the cur
 The built jar is written to:
 
 ```text
-build/libs/ragdollawfix-1.0.jar
+build/libs/ragdollawfix-1.1.jar
 ```
